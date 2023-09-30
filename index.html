@@ -1,26 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-</head>
-<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div id="main">
-        <h1 id="one"><span>Hey there!</span> I'm Ujjwal</h1><br>
-        <p id="p">I'm a BCA student at VIPS, IP-UNIVERSITY who loves to craft minimalist and brutalist Front-end websites with great user experiences.</p><br>
-        <p id="p2">I love to edit videos too. Feel free to connect with me.
-        </p>
-        <br>
-        <div id="icon">
-            <a href="https://github.com/ujjwallswaroop"><i class="ri-github-fill"></i></a>
-            <a href="https://instagram.com/ujjwall.s?igshid=OGQ5ZDc2ODk2ZA=="><i class="ri-instagram-fill"></i></a>
-            <a href="https://www.linkedin.com/in/ujjwal-swaroop-955890272"><i class="ri-linkedin-fill"></i></a>
-            <a href="mailto:ujjwalswaroop1@gmail.com"><i class="ri-mail-fill"></i></a>
+      <div data-scroll data-scroll-speed="2" id="page1">
+        <nav>
+          <img src="./Assets/logo.png" alt="" />
+          <div id="right-nav">
+            <h4>HOME</h4>
+            <h4>SKILLS</h4>
+            <h4>EDUCATION</h4>
+            <h4>PROJECTS</h4>
+            <h4>CONTACT ME</h4>
+          </div>
+        </nav>
+        <div id="page1-bottom">
+          <h1>Hey there! I'm <span>Ujjwal</span></h1>
+          <br />
+          <p>
+            I'm a BCA student at <span>VIPS, IP-UNIVERSITY </span> who loves
+            <br />
+            to craft minimalist and brutalist <span>Front-end websites</span>
+            <br />
+            with great user experiences.
+          </p>
+          <br />
+          <p>
+            I'm on a journey to transform my love for creativity <br />and
+            technology into beautifully designed and <br />user-friendly
+            websites
+          </p>
+          <br />
+          <p>I love to edit videos and photos too.</p>
         </div>
+        <video src="./Assets/bg.mp4" loop autoplay muted></video>
+      </div>
+      <div id="page2">
+        <div id="header"><h1>Skills</h1></div>
+        <div id="page2-bottom">
+          <div id="left">
+            <h4>- Adobe photoshop.</h4>
+            <h4>- Adobe premiere pro.</h4>
+            <h4>- Adobe Illustrator.</h4>
+            <h4>- Html and css.</h4>
+          </div>
+          <div id="right">
+            <div id="right-center"></div>
+          </div>
+        </div>
+      </div>
+      <div id="page3">
+        <main class="row">
+          <section class="col">
+            <header class="title">
+              <h1>EDUCATION</h1>
+            </header>
+            <div class="content">
+              <div class="box">
+                <h4>2018 - 2022</h4>
+                <h3>High school</h3>
+                <p>Andhra Education Society,ITO.</p>
+              </div>
+
+              <div class="box">
+                <h4>2023 - 2025</h4>
+                <h3>Bachelors of computer application</h3>
+                <p>VIPS, Indraprashta university</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="col">
+            <header class="title">
+              <h1>EXPERIENCES</h1>
+            </header>
+            <div class="content">
+              <div class="box">
+                <h4>2023-20XX</h4>
+                <h3>Front-end web developer</h3>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+
+              <div class="box">
+                <h4>20XX - 20XX</h4>
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+      <div id="page4">
+        <div id="page4-upper">
+          <h1>Projects</h1>
+        </div>
+        <div id="page4-bottom">
+          <div id="card1" class="cards">
+            <a href="https://ujjwallswaroop.github.io/sidecup-website/">
+              <div class="card-overlay">
+                <h3>Sidecup clone</h3>
+                <p>
+                  This is the clone of a famous website "Sidecup family golf" I
+                  really loved their webite so i tried to clone it.
+                </p>
+              </div></a
+            >
+          </div>
+          <div id="card2" class="cards">
+            <a href="https://ujjwallswaroop.github.io/"
+              ><div class="card-overlay">
+                <h3>GitHub Portfolio</h3>
+                <p>
+                  This is the Basic Portfolio I made recently for my github
+                  account.
+                </p>
+              </div></a
+            >
+          </div>
+          <div id="card3" class="cards">
+            <a href="https://thisismagma.com/"
+              ><div class="card-overlay">
+                <h3>Magma clone</h3>
+                <p>
+                  This is one of my favourite project i've worked on. It is the
+                  clone of a Awwward winning website "This is magma".
+                </p>
+              </div></a
+            >
+          </div>
+        </div>
+      </div>
+      <div id="page5">
+        <div id="page5-upper">
+          <h1>Feel free to connect with me!</h1>
+        </div>
+        <div id="page5-lower">
+          <div class="inner">
+            <h1>GitHub</h1>
+            <i class="ri-arrow-right-up-line"></i>
+            <div class="overlay">
+              <a href="https://github.com/ujjwallswaroop"
+                ><div class="touch"></div
+              ></a>
+            </div>
+          </div>
+          <div class="inner">
+            <h1>LinkedIN</h1>
+            <i class="ri-arrow-right-up-line"></i>
+            <div class="overlay">
+              <a href="https://www.linkedin.com/in/ujjwal-swaroop-955890272"
+                ><div class="touch"></div
+              ></a>
+            </div>
+          </div>
+          <div class="inner">
+            <h1>Instagram</h1>
+            <i class="ri-arrow-right-up-line"></i>
+            <div class="overlay">
+              <a href="https://instagram.com/ujjwall.s?igshid=OGQ5ZDc2ODk2ZA=="
+                ><div class="touch"></div
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
-</body>
+    <!--main div close-->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
