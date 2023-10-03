@@ -3,8 +3,6 @@
   src: url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400&display=swap");
 }
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -42,6 +40,10 @@ body {
   z-index: -99;
 }
 
+#page1-bottom {
+  z-index: 99999;
+}
+
 #page1 > nav {
   position: absolute;
   height: 15vh;
@@ -62,11 +64,12 @@ body {
   gap: 2vw;
 }
 
-#right-nav > h4 {
+#right-nav > a {
   color: white;
   font-size: 100%;
   padding: 0px 30px;
   font-weight: 700;
+  z-index: 1;
 }
 
 #page1-bottom {
@@ -115,7 +118,7 @@ body {
 #header > h1 {
   font-family: a;
   font-weight: 500;
-  font-size: 4vw;
+  font-size: 3rem;
 }
 
 #page2-bottom {
@@ -267,7 +270,7 @@ main.row {
 #page4-upper > h1 {
   color: #000;
   font-weight: 500;
-  font-size: 4vw;
+  font-size: 3rem;
   font-family: a;
 }
 
@@ -278,6 +281,7 @@ main.row {
 }
 
 .cards {
+  /* display: flexbox; */
   height: 75%;
   width: 30%;
   /* background-color: maroon; */
@@ -429,28 +433,6 @@ a {
   z-index: 99;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 720px) {
   #page1-bottom > h1 {
     color: white;
@@ -466,17 +448,30 @@ a {
     display: none;
   }
 
+  #page4-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cards {
+    width: 90%;
+  }
+
   #header > h1 {
     font-size: 7vw;
+  }
+
+  #page2-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   #header {
     height: 1vh;
     border: none;
-  }
-
-  #right-center {
-    background-image: unset;
   }
 
   #left > h4 {
