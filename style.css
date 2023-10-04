@@ -1,6 +1,6 @@
 @font-face {
   font-family: a;
-  src: url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400&display=swap");
+  src: url(./Caudex/Caudex-Regular.ttf);
 }
 
 * {
@@ -118,7 +118,7 @@ body {
 #header > h1 {
   font-family: a;
   font-weight: 500;
-  font-size: 3rem;
+  font-size: 3.3vw;
 }
 
 #page2-bottom {
@@ -242,6 +242,7 @@ main.row {
   color: #000;
   font-size: 1.5vw;
   font-family: a;
+  font-weight: 600;
 }
 
 .box > p {
@@ -270,7 +271,7 @@ main.row {
 #page4-upper > h1 {
   color: #000;
   font-weight: 500;
-  font-size: 3rem;
+  font-size: 3.3rem;
   font-family: a;
 }
 
@@ -433,7 +434,37 @@ a {
   z-index: 99;
 }
 
+.ri-menu-3-fill{
+ color: white;
+ font-size: 1.5vw;
+ font-weight: 900;
+ display: none;
+}
+
+
+
+#right-nav>a:hover{
+  color: #3ec091;
+}
+
 @media (max-width: 720px) {
+
+
+  #page1>nav>img{
+    width: 20%;
+  }
+
+  #right-nav>a{
+    display: none;
+  }
+
+
+  #page1 nav i{
+    display: block;
+    font-size: 7vw;
+    margin-right: 2vh;
+  }
+
   #page1-bottom > h1 {
     color: white;
     font-size: 10vw;
@@ -459,7 +490,9 @@ a {
   }
 
   #header > h1 {
-    font-size: 7vw;
+    font-weight: 500;
+    font-size: 3rem;
+
   }
 
   #page2-bottom {
@@ -505,4 +538,7 @@ a {
   .box > p {
     font-size: 3.5vw;
   }
+  
+
+
 }
